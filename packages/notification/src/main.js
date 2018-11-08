@@ -73,7 +73,7 @@ Notification.close = function(id, userOnClose) {
   }
   instances.splice(index, 1);
 
-  if (len <= 1) return;
+  /*if (len <= 1) return;
   const position = instance.position;
   const removedHeight = instance.dom.offsetHeight;
   for (let i = index; i < len - 1 ; i++) {
@@ -81,7 +81,7 @@ Notification.close = function(id, userOnClose) {
       instances[i].dom.style[instance.verticalProperty] =
         parseInt(instances[i].dom.style[instance.verticalProperty], 10) - removedHeight - 16 + 'px';
     }
-  }
+  }*/
 };
 
 Notification.closeAll = function() {
