@@ -1,2 +1,2 @@
 # element
-element-ui修改版
+使用方法 npm install -S https://github.com/mangoyogurte/element.git
